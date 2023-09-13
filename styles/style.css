@@ -3,8 +3,13 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;  
+  margin: 0;
+  padding: 0;
 }
 
+button, summary {
+	cursor: pointer;
+}
 
 
 
@@ -17,6 +22,7 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	--color-button-text:#ffff;
 }
 
 
@@ -29,3 +35,140 @@
 
 /* jouw code */
 
+body {
+	width: 100vw;
+  color:var(--color-text);
+  background-color:var(--color-background);
+}
+
+@font-face {
+	font-family: "Ubermove";
+	src: url('../fonts/UbermoveMedium.woff');
+	font-style: normal;
+	font-size: 100;
+}
+
+nav:nth-of-type(1) {
+	background-color: var(--color-background);
+	color: var(--color-text);
+	padding: 5em 1.5em 1.5em;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	inset: 0;
+	transform: translateY(-100%);
+	transition-duration: .3s;
+	z-index: 2;
+}
+
+nav:nth-of-type(2) {
+	background-color: blue;
+	color: var(--color-text);
+	padding: 5em 1.5em 1.5em;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	inset: 0;
+	transform: translateY(-100%);
+	transition-duration: .3s;
+	z-index: 2;
+}
+
+main {
+	padding-top: 1.5em;
+}
+
+header {
+	width: 100vw;
+	z-index: 100;
+	position: relative;
+}
+
+header div{
+	background-color: green;
+	z-index: 3;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+header.inlogOpen nav:nth-of-type(1) {
+	transform: translateY(0);
+}
+
+header div button:nth-of-type(2){
+	display: none;
+}
+
+/* Button inloggen  */
+
+header.inlogOpen div button:nth-of-type(2),
+header div button:nth-of-type(3) {
+	height: 1em;
+	width: 1em;
+	display: grid;
+	place-items:center;
+	background: none;
+	border: none;	
+	position: relative;
+	padding:0;
+	font: inherit;
+}
+
+header.inlogOpen div button:nth-of-type(2) span,
+header div button:nth-of-type(3) span {
+	position: absolute;
+	width: 1em;
+	height: .1em;
+	background-color: var(--color-background);
+	transition-duration: .5s;
+}
+
+header div	button:nth-of-type(3) span:first-of-type {
+	transform: translateY(-.4em);
+}
+
+header div	button:nth-of-type(3) span:last-of-type {
+	transform: translateY(.4em);
+}
+
+header.inlogOpen div button:nth-of-type(2) span:first-of-type,
+header.menuOpen div button:nth-of-type(3) span:first-of-type {
+	transform: rotate(45deg);
+}
+
+header.inlogOpen div button:nth-of-type(2) span:last-of-type,
+header.menuOpen div button:nth-of-type(3) span:last-of-type {
+	transform:rotate(-45deg);
+}
+
+header.menuOpen div button:nth-of-type(3) span:nth-of-type(2){
+	transform: scaleX(0);
+}
+
+header.inlogOpen div button:nth-of-type(3) {
+	display: none;
+}
+
+header.menuOpen nav:nth-of-type(2) {
+	transform: translateY(0);
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li a{
+	text-decoration: none;
+	color: var(--color-text);
+	font-family: UberMove;
+	font-size: 500;
+	
+}
+
+li {
+	border-bottom: 1px solid rgb(0, 0, 0);
+	padding: 4em 0 4em 0;
+}

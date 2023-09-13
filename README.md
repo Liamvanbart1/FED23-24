@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Liam van Bart
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Surface
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.uber.com/nl/nl/ 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Uber homepage 
+  <img src="readme-images/Screenshot pagina 1.png" width="375px" alt="Hoofdpagina van uber">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Pagina veiligheid uber  
+  <img src="readme-images/Screenshot pagina 2.png" width="375px" alt="Pagina veiligheid uber">
  
 </details>
 
@@ -53,11 +53,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  #### Screenreader
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+
+  #### Muis en Toetsenbord 
+  Alle links, buttons en form elementen met het toetsenbord geselecteerd en bediend worden.
+  resultaat: Het is niet duidelijk waar de selector is wanneer je begint met het selecteren van tab.
+  Met muis: Het werkt goed dus geen oplossing nodig.
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Een duidelijke kleur wanneer je iets selecteert met tab. Om de logische volgorde goed te kunnen zien.
+
+  #### Motoriek (shocks, elastiekjes)
+  De website is goed te bedienen met een motorische beperking. De knoppen zijn erg groot en makkelijk om op te klikken.
+
+
+  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
+  De website van Uber maakt alleen gebruik van wit en zwart de andere kleuren zijn alleen terug te vinden in de afbeeldingen.
 </details>
 
 
@@ -65,13 +84,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+  <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="/images/Pagina.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/Menu.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -85,7 +104,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
+  <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -118,7 +137,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
+  <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -151,10 +170,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+  #### Screenreader
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+
+  #### Muis en Toetsenbord 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+
+  #### Motoriek (shocks, elastiekjes)
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+
+  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
@@ -165,7 +207,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
+  <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -225,9 +267,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
+  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
   1. bron 1
   2. bron 2
