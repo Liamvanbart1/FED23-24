@@ -58,25 +58,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Muis en Toetsenbord 
-  Alle links, buttons en form elementen met het toetsenbord geselecteerd en bediend worden.
-  resultaat: Het is niet duidelijk waar de selector is wanneer je begint met het selecteren van tab.
-  Met muis: Het werkt goed dus geen oplossing nodig.
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-  Een duidelijke kleur wanneer je iets selecteert met tab. Om de logische volgorde goed te kunnen zien.
-
-  #### Motoriek (shocks, elastiekjes)
-  De website is goed te bedienen met een motorische beperking. De knoppen zijn erg groot en makkelijk om op te klikken.
-
-
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  De website van Uber maakt alleen gebruik van wit en zwart de andere kleuren zijn alleen terug te vinden in de afbeeldingen.
 </details>
 
 
