@@ -55,8 +55,8 @@ De website die ik heb gekozen is die van UBER.
   Gebruik de screenreader om alle headings voor te lezen. Is de structuur logisch?
 
   Nee de structuur is niet logisch het lukt niet om de H1 te lezen en hij springt van knop naar knop/link.
-  <img src="readme-images/IMG_8724.HEIC" width="375px" alt="Spraakbesturing test 1">
-  <img src="readme-images/IMG_8725.HEIC" width="375px" alt="Spraakbesturing test 2">
+  <img src="readme-images/IMG_8724.jpg" width="375px" alt="Spraakbesturing test 1">
+  <img src="readme-images/IMG_8725.jpg" width="375px" alt="Spraakbesturing test 2">
   De linkjes zijn wel te vinden en deze zijn ook goed uitgeled.
 
   ### WCAG checklist
