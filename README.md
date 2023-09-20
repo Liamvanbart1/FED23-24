@@ -49,8 +49,19 @@ De website die ik heb gekozen is die van UBER.
 
 <details>
   <summary>uitwerken na test in 1e werkgroep</summary>
+
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  - Test 1 
+  Gebruik de screenreader om alle headings voor te lezen. Is de structuur logisch?
+
+  Nee de structuur is niet logisch het lukt niet om de H1 te lezen en hij springt van knop naar knop/link.
+  <img src="readme-images/IMG_8724.HEIC" width="375px" alt="Spraakbesturing test 1">
+  <img src="readme-images/IMG_8725.HEIC" width="375px" alt="Spraakbesturing test 2">
+  De linkjes zijn wel te vinden en deze zijn ook goed uitgeled.
+
+  ### WCAG checklist
+
+
 
 </details>
 
