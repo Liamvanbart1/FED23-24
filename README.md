@@ -60,6 +60,11 @@ De website die ik heb gekozen is die van UBER.
   De linkjes zijn wel te vinden en deze zijn ook goed uitgeled.
 
   ### WCAG checklist
+<img src="readme-images/Test _Tekengebied 1-01.png" width="375px" alt="Spraakbesturing test 2">
+<img src="readme-images/Test -02.png" width="375px" alt="Spraakbesturing test 2">
+<img src="readme-images/Test _Tekengebied 1-03.png" width="375px" alt="Spraakbesturing test 2">
+<img src="readme-images/Test -04.png" width="375px" alt="Spraakbesturing test 2">
+<img src="readme-images/Test -05.png" width="375px" alt="Spraakbesturing test 2">
 
 
 
