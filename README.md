@@ -37,7 +37,7 @@ De website die ik heb gekozen is die van UBER.
   <img src="readme-images/pagina 1 mobiel.png" width="375px" alt="Hoofdpagina van Apple">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Pagina veiligheid uber  
+  Pagina onderwijs apple
 
   <img src="readme-images/pagina 2 mobiel.png" width="375px" alt="Pagina Onderwijs Apple">
  
@@ -48,16 +48,12 @@ De website die ik heb gekozen is die van UBER.
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 1e werkgroep</summary>
+  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  - Test 1 
-  Gebruik de screenreader om alle headings voor te lezen. Is de structuur logisch?
+  Lijst met je bevindingen die in de test naar voren kwamen:
 
-  Nee de structuur is niet logisch het lukt niet om de H1 te lezen en hij springt van knop naar knop/link.
-  <img src="readme-images/IMG_8724.jpg" width="375px" alt="Spraakbesturing test 1">
-  <img src="readme-images/IMG_8725.jpg" width="375px" alt="Spraakbesturing test 2">
-  De linkjes zijn wel te vinden en deze zijn ook goed uitgeled.
+</details>
 
   ### WCAG checklist
 <img src="readme-images/Test _Tekengebied 1-01.png" width="375px" alt="Spraakbesturing test 2">
@@ -67,35 +63,10 @@ De website die ik heb gekozen is die van UBER.
 <img src="readme-images/Test -05.png" width="375px" alt="Spraakbesturing test 2">
 
 
-
-</details>
-
-
-
-## Breakdownschets (week 1)
-
-<details>
-  <summary>uitwerken na afloop 2e werkgroep</summary>
-
-  ### de hele pagina: 
-  <img src="/images/Pagina.jpg" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="images/Menu.png" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
-</details>
-
-
-
-
-
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1e voortgang</summary>
+  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -104,12 +75,11 @@ De website die ik heb gekozen is die van UBER.
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Liam 1         | Esra 2             | Sarah 3      | Jornt 4          |
+  | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | Nav bar display|
-    verschillende dingen| en dit        | en ik dit    | en dan ik dat    |
-  |                | dit als er tijd is | nog een punt | dit wil ik zeker |
-  |                | ...                | ...          | ...              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
@@ -129,7 +99,7 @@ De website die ik heb gekozen is die van UBER.
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2e voortgang</summary>
+  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -162,33 +132,10 @@ De website die ik heb gekozen is die van UBER.
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 8e werkgroep</summary>
+  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
-  #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
@@ -199,7 +146,7 @@ De website die ik heb gekozen is die van UBER.
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3e voortgang</summary>
+  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -259,7 +206,9 @@ De website die ik heb gekozen is die van UBER.
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
+  Nb. ChatGpT en andere AI horen er ook bij.
+  Nb. Vermeld de bronnen ook in je code.
 
   1. bron 1
   2. bron 2
