@@ -29,17 +29,17 @@ De website die ik heb gekozen is die van UBER.
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.uber.com/nl/nl/ 
+  https://www.apple.com/nl/   
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Uber homepage 
+  Homepage
 
-  <img src="readme-images/Screenshot pagina 1.png" width="375px" alt="Hoofdpagina van uber">
+  <img src="readme-images/pagina 1 mobiel.png" width="375px" alt="Hoofdpagina van Apple">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Pagina veiligheid uber  
 
-  <img src="readme-images/Screenshot pagina 2.png" width="375px" alt="Pagina veiligheid uber">
+  <img src="readme-images/pagina 2 mobiel.png" width="375px" alt="Pagina Onderwijs Apple">
  
 </details>
 
