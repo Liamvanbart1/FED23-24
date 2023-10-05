@@ -109,10 +109,11 @@ De website die ik heb gekozen is die van UBER.
   samen met je groepje opstellen
 
   |Student 1 Esra
+
   Ik struggle op dit moment met mijn iconen rechts krijgen in het menu. Ik wil dat het logo rechts blijft, en mijn logo links.
 
   Mijn afbeelding in de eerste section is heel condensed terwijl ik wel de juiste afmetingen en afbeelding heb gebruikt.
-  
+
   | Student 2 Karenza 
   @font face werkt niet
 
@@ -124,16 +125,16 @@ De website die ik heb gekozen is die van UBER.
   Bepaalde afbeelding laadt niet bij testen telefoon, hoe komt dat?
 
   | Student 4 Sarah
-  -Header images overhoop gehaald hoe fix ik het weer
+  Header images overhoop gehaald hoe fix ik het weer
 
-  -Hoe maak ik een button van een img en een woord samen
+  Hoe maak ik een button van een img en een woord samen
 
-  -Hoe spreek ik alleen het logo aan, laatste img van de header in de 2e nav
+  Hoe spreek ik alleen het logo aan, laatste img van de header in de 2e nav
 
-    |Student 5 Liam
-    -Afbeeldingen carousel met animiatie
-    -Nth of type voor de kleur van tekst lukt niet
-    -Hoe kun je het beste de iconen in de navbar doe
+|Student 5 Liam
+  Afbeeldingen carousel met animiatie
+  Nth of type voor de kleur van tekst lukt niet
+  Hoe kun je het beste de iconen in de navbar doe
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
