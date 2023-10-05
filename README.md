@@ -136,12 +136,8 @@ De website die ik heb gekozen is die van UBER.
   Nth of type voor de kleur van tekst lukt niet
   Hoe kun je het beste de iconen in de navbar doe
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Image carousel , opacity JS 
+  - Dropdown menu Forken van Sanne
 
 </details>
 
