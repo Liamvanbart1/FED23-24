@@ -6,3 +6,4 @@ hamburgerMenu.addEventListener("click", menuToggle);
 function menuToggle() {
     hamburgerMenu.classList.toggle("menuOpen");
 }
+

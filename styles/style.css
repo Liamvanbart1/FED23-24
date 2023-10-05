@@ -84,19 +84,19 @@ main {
 }
 
 H1{
-	color: white;
+	
 }
 
 
 H2{
-	color: white;
 	font-family: SF Pro Display thin ;
 	font-size: 19px;
 	font-weight: 400;
 }
 
 
-main div:nth-of-type(1) {
+main section:nth-of-type(1) {
+	color: white;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
@@ -106,7 +106,7 @@ main div:nth-of-type(1) {
 
 
 
-main div:nth-of-type(3) {
+main section:nth-of-type(3) {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
@@ -116,7 +116,7 @@ main div:nth-of-type(3) {
 }
 
 
-main div img {
+main section img {
 	width: 100%;
 	max-height: 600px;
 	margin-bottom: 10px;
