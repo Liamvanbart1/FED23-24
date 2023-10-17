@@ -1,9 +1,8 @@
 // JavaScript Document
-var hamburgerMenu = document.querySelector("header > section");
+const deButton = document.querySelector("header nav button:nth-of-type(3)");
 
-hamburgerMenu.addEventListener("click", menuToggle);
+deButton.onclick = toggleMenu;
 
-function menuToggle() {
-    hamburgerMenu.classList.toggle("menuOpen");
+function toggleMenu() {
+  deButton.classList.toggle("open");
 }
-
