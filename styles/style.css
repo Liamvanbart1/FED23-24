@@ -73,7 +73,7 @@ body {
 }
 
 header {
-	width: 100vw;
+	width: 100%;
 	z-index: 100;
 	position: sticky;
 	top: 0;
@@ -103,14 +103,17 @@ H2{
 }
 
 header nav section {
+	display: block;
+	position: relative;
 	visibility: hidden;
 	height: 100%;
+	width: 100%;
 	top: 0;
 	left: 0;
 	background-color: #000000;
 	overflow-x: hidden;
 	transition: .5s;
-}
+} 
 
 header nav section.open {
 	visibility: visible;
