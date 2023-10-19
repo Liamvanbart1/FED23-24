@@ -1,233 +1,251 @@
 # Procesverslag
-Dit is het Procesverslag van mijn Website voor FED, Liam van Bart studentnummer: 500857313.
-De website die ik heb gekozen is die van UBER. 
 
+Dit is het Procesverslag van mijn Website voor FED, Liam van Bart studentnummer: 500857313.
+De website die ik heb gekozen is die van UBER.
 
 ## Jij
 
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
-  ### Auteur:
-  Liam van Bart
+### Auteur:
 
-  #### Je startniveau:
-  Rood test 
+Liam van Bart
 
-  #### Je focus:
-  Surface
- 
+#### Je startniveau:
+
+Rood test
+
+#### Je focus:
+
+Surface
+
 </details>
-
-
-
-
 
 ## Je website
 
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
-  ### Je opdracht:
-  https://www.apple.com/nl/   
+### Je opdracht:
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepage
+https://www.apple.com/nl/
+
+#### Screenshot(s) van de eerste pagina (small screen):
+
+Homepage
 
   <img src="readme-images/pagina 1 mobiel.png" width="375px" alt="Hoofdpagina van Apple">
 
-  #### Screenshot(s) van de tweede pagina (small screen):
-  Pagina onderwijs apple
+#### Screenshot(s) van de tweede pagina (small screen):
+
+Pagina onderwijs apple
 
   <img src="readme-images/pagina 2 mobiel.png" width="375px" alt="Pagina Onderwijs Apple">
  
 </details>
-
-
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+### Bevindingen
+
+Lijst met je bevindingen die in de test naar voren kwamen:
 
 </details>
 
-  ### WCAG checklist
+### WCAG checklist
+
 <img src="readme-images/Test _Tekengebied 1-01.png" width="375px" alt="Spraakbesturing test 2">
 <img src="readme-images/Test -02.png" width="375px" alt="Spraakbesturing test 2">
 <img src="readme-images/Test _Tekengebied 1-03.png" width="375px" alt="Spraakbesturing test 2">
 <img src="readme-images/Test -04.png" width="375px" alt="Spraakbesturing test 2">
 <img src="readme-images/Test -05.png" width="375px" alt="Spraakbesturing test 2">
 
-
 ## Voortgang 1 (week 2)
 
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+### Stand van zaken
 
+hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+### Agenda voor meeting
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+samen met je groepje opstellen
 
+| student 1      | student 2          | student 3    | student 4        |
+| -------------- | ------------------ | ------------ | ---------------- |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ...            | ...                | ...          | ...              |
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+### Verslag van meeting
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+- punt 1
+- punt 2
+- nog een punt
+- ...
 
 </details>
-
-
-
-
 
 ## Voortgang 2 (week 3)
 
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+### Stand van zaken
 
+hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+### Agenda voor meeting
 
-  |Student 1 Esra
+samen met je groepje opstellen
 
-  Ik struggle op dit moment met mijn iconen rechts krijgen in het menu. Ik wil dat het logo rechts blijft, en mijn logo links.
+|Student 1 Esra
 
-  Mijn afbeelding in de eerste section is heel condensed terwijl ik wel de juiste afmetingen en afbeelding heb gebruikt.
+Ik struggle op dit moment met mijn iconen rechts krijgen in het menu. Ik wil dat het logo rechts blijft, en mijn logo links.
 
-  | Student 2 Karenza 
-  @font face werkt niet
+Mijn afbeelding in de eerste section is heel condensed terwijl ik wel de juiste afmetingen en afbeelding heb gebruikt.
 
-  | Student 3 Bjornt
-  Ik wil graag weten hoezo mijn 2e section niet het scherm volledig vult.
+| Student 2 Karenza
+@font face werkt niet
 
-  waarom kan ik de 'font-weight' van m'n nav niet aanpassen?
+| Student 3 Bjornt
+Ik wil graag weten hoezo mijn 2e section niet het scherm volledig vult.
 
-  Bepaalde afbeelding laadt niet bij testen telefoon, hoe komt dat?
+waarom kan ik de 'font-weight' van m'n nav niet aanpassen?
 
-  | Student 4 Sarah
-  Header images overhoop gehaald hoe fix ik het weer
+Bepaalde afbeelding laadt niet bij testen telefoon, hoe komt dat?
 
-  Hoe maak ik een button van een img en een woord samen
+| Student 4 Sarah
+Header images overhoop gehaald hoe fix ik het weer
 
-  Hoe spreek ik alleen het logo aan, laatste img van de header in de 2e nav
+Hoe maak ik een button van een img en een woord samen
+
+Hoe spreek ik alleen het logo aan, laatste img van de header in de 2e nav
 
 |Student 5 Liam
-  Afbeeldingen carousel met animiatie
-  Nth of type voor de kleur van tekst lukt niet
-  Hoe kun je het beste de iconen in de navbar doe
-  ### Verslag van meeting
-  - Image carousel , opacity JS 
-  - Dropdown menu Forken van Sanne
+Afbeeldingen carousel met animiatie
+Nth of type voor de kleur van tekst lukt niet
+Hoe kun je het beste de iconen in de navbar doe
+
+### Verslag van meeting
+
+- Image carousel , opacity JS
+- Dropdown menu Forken van Sanne
 
 </details>
-
-
-
-
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+### Bevindingen
+
+Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
 </details>
-
-
-
-
 
 ## Voortgang 3 (week 4)
 
 <details>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+### Stand van zaken
 
+hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+### Agenda voor meeting
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+- Jornt
+  Waarom blijft niet mijn gehele navigatie plakken?
 
+Hoe krijg ik mn tekst in sectie 4 responsive?
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+Er zijn maar 3 fonts beschikbaar om te downloaden font weight lukt niet
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+- Karenza
+  Responsive text /footer
+
+Hoe werkt het overlappen van foto's/background
+
+Hoe specifiek moet de uitleg van een Alt attribuut zijn?
+
+Meer uitleg responisveness
+
+- Sarah
+  Fonts kan ik niet vinden vanwege onduidelijke namen
+
+Rondje boven een winkelmandje maken
+
+hoe krijg je een link en p element onder elkaar?
+
+- Esra
+
+Hoe zorg ik dat de tekst in mijn section automatisch veranderd?
+
+Hoe roep ik de eerste P in een section aan?
+
+Hoe krijg ik verschillende items in een navigatie onder elkaar?
+
+-Liam
+Hoe krijg ik 3 verschillende menu opties?
+Hoe maak ik een slideshow met animaties?
+Hoe zorg ik ervoor dat 1 knop 3 menus kan afsluiten?
+
+samen met je groepje opstellen
+
+### Verslag van meeting
+
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+- punt 1
+- punt 2
+- nog een punt
+- ...
 
 </details>
-
-
-
-
 
 ## Eindgesprek (week 5)
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
+### Je uitkomst - karakteristiek screenshots:
+
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
+### Dit ging goed/Heb ik geleerd:
 
-  ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+Korte omschrijving met plaatjes
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
+### Dit was lastig/Is niet gelukt:
 
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+Korte omschrijving met plaatjes
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
-
-
-
-
 
 ## Bronnenlijst
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
+Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+Nb. ChatGpT en andere AI horen er ook bij.
+Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+1. bron 1
+2. bron 2
+3. ...
 
 </details>

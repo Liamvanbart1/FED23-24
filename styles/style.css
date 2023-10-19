@@ -84,28 +84,6 @@ header {
 	backdrop-filter: blur(.4em);
 }
 
-header nav section{
-	height: 100%;
-	width: 0;
-	z-index: 101;
-	left: 0;
-	top: 0;
-	background-color: var(--color-header);
-	overflow-x: hidden;
-	transition: .5s;
-}
-
-header section>ul {
-	position: relative;
-	top: 25%;
-		/* 25% from the top */
-	width: 100%;
-		/* 100% width */
-	text-align: center;
-		/* Centered text/links */
-	margin-top: 30px;
-}
-
 main {
 	display: flex;
 	flex-direction: column;
@@ -122,6 +100,20 @@ H2{
 	font-weight: 400;
 	font-size: 1.1875em;
 	text-align: center;
+}
+
+header nav section {
+	visibility: hidden;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	overflow-x: hidden;
+	transition: .5s;
+}
+
+header nav section.open {
+	visibility: visible;
 }
 
 
@@ -221,19 +213,23 @@ header nav button:nth-of-type(3) span {
 
 header nav button:nth-of-type(3) span:nth-of-type(1) {
 	translate: 0 -.25em;
+	z-index: 2000;
 }
 
 header nav button:nth-of-type(3) span:nth-of-type(2) {
 	translate: 0 .25em;
+	z-index: 2000;
 }
 
 header nav button.open:nth-of-type(3) span:nth-of-type(1) {
 	translate: 0 0;
 	rotate: 45deg;
+	z-index: 2000;
 }
 
 header nav button.open:nth-of-type(3) span:nth-of-type(2) {
 	translate: 0 0;
 	rotate: -45deg;
+	z-index: 2000;
 }
 
