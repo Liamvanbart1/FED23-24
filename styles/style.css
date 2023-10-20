@@ -22,9 +22,12 @@ button, summary {
 	/* startje */
 	--color-text:#000000;
 	--color-background:#eee;
-	--color-header:#C8C8CAcc;
+	--color-header:#161617eb;
 	--color-header1:#F3F3F6;
 	--color-button-text:#ffff;
+	--color-menudropdown: #161617;
+	--color-svg: #D0D0D0;
+	--color-link: #2997ff;
 }
 
 
@@ -37,7 +40,7 @@ button, summary {
 
 /* jouw code */
 /* Fonts */
-
+/* ik weet dat het beter kan met alleen font weight */
 @font-face {
 	font-family: "SF Pro Display";
 	src: url('../fonts/sf-pro-display_regular.woff2');
@@ -84,41 +87,53 @@ header {
 	backdrop-filter: blur(.4em);
 }
 
+header svg {
+	fill: #eee;
+}
+
+
 main {
 	display: flex;
 	flex-direction: column;
 }
 
 h1 {
-	font-family: SF Pro Display	semibold;
+	font-family: SF Pro Display	semibold, sans-serif;
 	font-size: 2em;
 	text-align: center;
 }
 
 H2{
-	font-family: SF Pro Display thin ;
+	font-family: SF Pro Display thin, sans-serif ;
 	font-weight: 400;
 	font-size: 1.1875em;
 	text-align: center;
 }
 
-header nav section {
-	display: block;
-	position: relative;
-	visibility: hidden;
+body>nav {
+	position: fixed;
+	background-color: var(--color-menudropdown);
+	inset: 0;
 	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	background-color: #000000;
-	overflow-x: hidden;
-	transition: .5s;
+	translate: 0 -100%;
+	transition: 1s ease-in-out;
 } 
 
-header nav section.open {
+body>nav.open {
 	visibility: visible;
+	translate: 0 0;
+	transition: 1s ease-in-out;
 }
 
+body>nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	color: var(--color-button-text);
+	font-family: SF Pro Display semibold,sans-serif;
+	font-size: 2em;
+}
 
 header>a {
 	width: 3em;
@@ -165,7 +180,7 @@ main section {
 	gap: .75em;
 	align-items: center;
 	padding-top: 3em;
-	color: black;
+	color: var(--color-text);
 }
 
 main section:nth-of-type(1) {
@@ -175,7 +190,7 @@ main section:nth-of-type(1) {
 
 main section:nth-of-type(2) {
 	background-color: var(--color-header1);
-	color: black; 
+	color: var(--color-text); 
 }
 
 main section img {
@@ -186,13 +201,13 @@ main section:nth-of-type(1) ul {
 	display: flex;
 	width: 12em;
 	flex-direction: row;
-	color: #2997ff;
+	color: var(--color-link);
 	list-style-type: none;
 	justify-content: space-between;
 }
 
 main section ul li>a {
-	font-family: SF Pro Display thin;
+	font-family: SF Pro Display thin, sans-serif;
 }
 
 header nav button:nth-of-type(3){
@@ -210,14 +225,13 @@ header nav button:nth-of-type(3) span {
 	position: absolute;
 	display: block;
 	width: 1em;
-	height: .1em;
-	background-color: black;
+	height: .08em;
+	background-color: var(--color-svg);
 	transition: .2s;
 }
 
 header nav button:nth-of-type(3) span:nth-of-type(1) {
 	translate: 0 -.25em;
-	z-index: 2000;
 }
 
 header nav button:nth-of-type(3) span:nth-of-type(2) {

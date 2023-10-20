@@ -171,6 +171,8 @@ Hoe krijg ik mn tekst in sectie 4 responsive?
 
 Er zijn maar 3 fonts beschikbaar om te downloaden font weight lukt niet
 
+Oplossing: Position relative weghalen en padding toevoegen
+
 - Karenza
   Responsive text /footer
 
@@ -180,12 +182,16 @@ Hoe specifiek moet de uitleg van een Alt attribuut zijn?
 
 Meer uitleg responisveness
 
+Oplossing: Div omheen zetten
+
 - Sarah
   Fonts kan ik niet vinden vanwege onduidelijke namen
 
 Rondje boven een winkelmandje maken
 
 hoe krijg je een link en p element onder elkaar?
+
+Oplossing: Fonts importeren
 
 - Esra
 

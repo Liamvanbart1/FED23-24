@@ -1,6 +1,6 @@
 // JavaScript Document
 const deButton = document.querySelector("header nav button:nth-of-type(3)");
-const deMenu = document.querySelector("header nav section");
+const deMenu = document.querySelector("body>nav");
 
 deButton.onclick = toggleMenu;
 
