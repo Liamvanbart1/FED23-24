@@ -76,7 +76,6 @@ body {
 }
 
 header {
-	width: 100%;
 	z-index: 100;
 	position: sticky;
 	top: 0;
@@ -126,14 +125,24 @@ body>nav.open {
 }
 
 body>nav ul {
+	height: 100%;
 	list-style-type: none;
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
 	color: var(--color-button-text);
 	font-family: SF Pro Display semibold,sans-serif;
-	font-size: 2em;
+	/* margin-top: 3em; */
+	/* justify-content: center; */
 }
+
+body>nav ul li {
+	color: var(--color-button-text);
+	font-family: SF Pro Display semibold, sans-serif;
+	font-size: 2.9375em;
+
+}
+
 
 header>a {
 	width: 3em;
@@ -227,7 +236,7 @@ header nav button:nth-of-type(3) span {
 	width: 1em;
 	height: .08em;
 	background-color: var(--color-svg);
-	transition: .2s;
+	transition: .15s ease-in-out;
 }
 
 header nav button:nth-of-type(3) span:nth-of-type(1) {
