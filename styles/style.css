@@ -65,9 +65,9 @@ button, summary {
 	line-height: 1.21053;
 	format: ('woff2');
 }
-
-
 /* Fonts */
+
+
 
 body {
 	width: 100vw;
@@ -109,6 +109,8 @@ H2{
 	text-align: center;
 }
 
+/* Inhoud menu */
+
 body>nav {
 	position: fixed;
 	background-color: var(--color-menudropdown);
@@ -116,6 +118,7 @@ body>nav {
 	height: 100%;
 	translate: 0 -100%;
 	transition: 1s ease-in-out;
+	padding-top: 3rem;
 } 
 
 body>nav.open {
@@ -125,38 +128,85 @@ body>nav.open {
 }
 
 body>nav ul {
-	height: 100%;
-	list-style-type: none;
+	height: auto;
 	display: flex;
+	list-style-type: none;
 	flex-direction: column;
-	gap: 1em;
+	justify-content: flex-start;
+	gap: .5em;
 	color: var(--color-button-text);
 	font-family: SF Pro Display semibold,sans-serif;
-	/* margin-top: 3em; */
-	/* justify-content: center; */
+	flex-grow:1;
+}
+
+body>nav ul li:nth-of-type(1) { 
+	--index:0; 
+}
+body>nav ul li:nth-of-type(2) {
+	--index: 1;
+}
+body>nav ul li:nth-of-type(3) {
+	--index: 2;
+}
+body>nav ul li:nth-of-type(4) {
+	--index: 3;
+}
+body>nav ul li:nth-of-type(5) {
+	--index: 4;
+}
+body>nav ul li:nth-of-type(6) {
+	--index: 5;
 }
 
 body>nav ul li {
-	color: var(--color-button-text);
-	font-family: SF Pro Display semibold, sans-serif;
-	font-size: 2.9375em;
+	margin-top:-.25em;
+	opacity:0;
 
+	transition: .2s 0s;
 }
 
+body>nav.open ul li {
+	margin-top: 0;
+	opacity: 1;
 
+	transition: .25s calc(1s + .05s * var(--index));
+}
+
+body>nav ul li a{
+	color: var(--color-button-text);
+	font-family: SF Pro Display semibold, sans-serif;
+	font-size: 1.8em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 2.35em;
+}
+
+body>nav ul li a svg{
+	rotate: 180deg;
+	fill:currentColor;
+	opacity: 0;
+	transition: .25s;
+}
+
+body>nav ul li a:hover svg,
+body>nav ul li a:focus-visible svg {
+	opacity: 1;
+}
+/* --------------------------------------------------- */
+
+/* Navigatie header */
 header>a {
 	width: 3em;
 	aspect-ratio: 1;
-	color: white;
 	display: flex;
 	justify-content:center;
-	align-items: center;
+
 }
 
 nav {
 	display: flex;
 	justify-content: space-between;
-	align-items:center;
 	gap: .5em;
 }
 
@@ -176,6 +226,9 @@ header>nav>button {
 	place-content: center;
 	cursor: pointer;
 }
+/* --------------------------------------------------- */
+
+/* Main */
 
 main {
 	display: flex;
@@ -192,12 +245,12 @@ main section {
 	color: var(--color-text);
 }
 
-main section:nth-of-type(1) {
+main section:nth-of-type(2n+1) {
 	background-color: var(--color-text);
 	color: white;
 }
 
-main section:nth-of-type(2) {
+main section:nth-of-type(2n) {
 	background-color: var(--color-header1);
 	color: var(--color-text); 
 }
@@ -218,6 +271,8 @@ main section ul {
 main section ul li>a {
 	font-family: SF Pro Display thin, sans-serif;
 }
+
+/* Header */
 
 header nav button:nth-of-type(3){
 	position: relative;
