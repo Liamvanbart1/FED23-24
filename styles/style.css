@@ -75,6 +75,11 @@ body {
 	font-family: "SF Pro Display";
 }
 
+a:visited {
+	-webkit-: none;
+	text-decoration: none;
+}
+
 header {
 	z-index: 100;
 	position: sticky;
@@ -87,7 +92,7 @@ header {
 }
 
 header svg {
-	fill: #eee;
+	fill:var(--color-background);
 }
 
 
@@ -179,7 +184,7 @@ body>nav ul li a{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding:0 2.35em;
+	padding:0 1em 0 2.35em;
 }
 
 body>nav ul li a svg{
