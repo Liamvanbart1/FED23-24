@@ -90,6 +90,10 @@ header {
 	background-color: var(--color-header);
 	backdrop-filter: blur(.4em);
 }
+header>nav {
+	display: flex;
+	align-items: center;
+}
 
 header svg {
 	fill:var(--color-background);
@@ -104,6 +108,7 @@ main {
 h1 {
 	font-family: SF Pro Display	semibold, sans-serif;
 	font-size: 2em;
+	letter-spacing: .02em;
 	text-align: center;
 }
 
@@ -240,6 +245,10 @@ main {
 	gap: .5em;
 }
 
+a:link, a:visited {
+	color: var(--color-link);
+	text-decoration: none;
+}
 
 main section {
 	display: flex;
@@ -268,7 +277,6 @@ main section ul {
 	display: flex;
 	width: 12em;
 	flex-direction: row;
-	color: var(--color-link);
 	list-style-type: none;
 	justify-content: space-between;
 }
