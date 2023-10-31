@@ -206,7 +206,7 @@ main section img {
 	width: 100%;
 }
 
-main section:nth-of-type(1) ul {
+main section ul {
 	display: flex;
 	width: 12em;
 	flex-direction: row;
