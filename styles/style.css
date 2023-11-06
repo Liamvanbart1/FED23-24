@@ -203,6 +203,30 @@ body>nav ul li a:hover svg,
 body>nav ul li a:focus-visible svg {
 	opacity: 1;
 }
+
+
+
+/* Winkelwagen */
+
+body>nav:nth-last-of-type(2).open {
+	visibility: visible;
+	translate: 0 0;
+	transition: 1s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------------------------------------- */
 
 /* Navigatie header */
@@ -335,6 +359,6 @@ footer nav {
 	list-style-type: none;
 }
 
-footer {
-	display: none;
+footer ul {
+	list-style-type: none;
 }
