@@ -75,11 +75,6 @@ body {
 	font-family: "SF Pro Display";
 }
 
-a:visited {
-	-webkit-: none;
-	text-decoration: none;
-}
-
 header {
 	z-index: 100;
 	position: sticky;
@@ -119,6 +114,11 @@ H2{
 	text-align: center;
 }
 
+h4 {
+	font-family: SF Pro Display thin, sans-serif;
+	margin-bottom: .25em;
+}
+
 /* Inhoud menu */
 
 body>nav {
@@ -138,7 +138,7 @@ body>nav.open {
 }
 
 body>nav ul {
-	height: auto;
+
 	display: flex;
 	list-style-type: none;
 	flex-direction: column;
@@ -206,25 +206,41 @@ body>nav ul li a:focus-visible svg {
 
 
 
-/* Winkelwagen */
+/* Searchbar */
 
-body>nav:nth-last-of-type(2).open {
-	visibility: visible;
-	translate: 0 0;
-	transition: 1s ease-in-out;
+body>nav:nth-of-type(3) {
+	display: flex;
+	flex-direction: column;
 }
 
+body>nav:nth-of-type(3) ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	flex-grow: 1;
+}
 
+body>nav:nth-of-type(3) ul svg {
+	fill: currentColor;
+}
 
+body>nav:nth-of-type(3) ul li:nth-of-type(1) {
+	padding: 0 1em 0 2.35em;
+}
 
+body>nav:nth-of-type(3) ul li input {
+	height: 2.5em;
+	width: 100%;
+	border: none;
+	color: var(--color-button-text);
+	background-color: var(--color-menudropdown);
+	font-family: SF Pro Display , sans-serif;
+	font-size: large;
+}
 
-
-
-
-
-
-
-
+body>nav:nth-of-type(3) ul li input:focus {
+	outline: none;
+}
 
 
 /* --------------------------------------------------- */
@@ -269,8 +285,20 @@ main {
 	gap: .5em;
 }
 
+a {
+	text-decoration: none;
+}
+
 a:link, a:visited {
 	color: var(--color-link);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	-webkit-: none;
 	text-decoration: none;
 }
 
@@ -354,11 +382,56 @@ header nav button.open:nth-of-type(3) span:nth-of-type(2) {
 
 /* Footer */
 
+footer {
+	background-color: var(--color-background);
+	margin: 2em;
+	color: var(--color-svg);
+}
 footer nav {
-	justify-content: center;
-	list-style-type: none;
+	justify-content: flex-start;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
 }
 
-footer ul {
+footer section {
+	margin-top: 1em;
+}
+
+footer ol {
+	margin-bottom: 1rem;
+}
+
+footer section ul {
 	list-style-type: none;
+	margin-bottom: 1rem;
+}
+
+footer nav button {
+	border: none;
+	font-family: SF Pro Display, sans-serif;
+	font-size: 1em;
+	color: var(--color-svg);
+	text-align: left;
+	border-bottom: 0.1em solid var(--color-svg);
+}
+
+footer nav ul {
+	display: none;
+	margin-bottom: .5rem;
+	border-bottom: 0.1em solid var(--color-svg);
+}
+
+footer nav ul.open {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+}
+
+footer nav ul li {
+	margin-left: 1rem;
+}
+
+footer section:nth-of-type(2){
+	margin: 1em 0 1em 0 ;
 }
