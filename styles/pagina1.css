@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    gap: .5em;
+    flex-direction: column;
+}
+
+main section {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .75em;
+    align-items: center;
+    padding-top: 3em;
+    color: var(--color-text);
+}
+
+main section:nth-of-type(2n+1) {
+    background-color: var(--color-text);
+    color: white;
+}
+
+main section:nth-of-type(2n) {
+    background-color: var(--color-header1);
+    color: var(--color-text);
+}
+
+main section img {
+    width: 100%;
+}
+
+main section ul {
+    display: flex;
+    width: 12em;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+main section ul li>a {
+    font-family: SF Pro Display thin, sans-serif;
+}
+

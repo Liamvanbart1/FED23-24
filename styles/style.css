@@ -67,13 +67,7 @@ button, summary {
 }
 /* Fonts */
 
-
-
-body {
-	width: 100vw;
-	background-color:var(--color-background);
-	font-family: "SF Pro Display";
-}
+/* Header---------------------------------------------------*/
 
 header {
 	z-index: 100;
@@ -85,6 +79,7 @@ header {
 	background-color: var(--color-header);
 	backdrop-filter: blur(.4em);
 }
+
 header>nav {
 	display: flex;
 	align-items: center;
@@ -94,32 +89,149 @@ header svg {
 	fill:var(--color-background);
 }
 
+header>a {
+	width: 3em;
+	aspect-ratio: 1;
+	display: flex;
+	justify-content: center;
 
-main {
+}
+
+header>nav>button {
+	background-color: transparent;
+	border: none;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+	font: inherit;
+	border-radius: 0;
+	appearance: none;
+	height: 2.5em;
+	width: 2.5em;
+	display: grid;
+	place-items: center;
+	place-content: center;
+	cursor: pointer;
+}
+
+header nav button:nth-of-type(3) {
+	position: relative;
+	display: block;
+	width: 2em;
+	aspect-ratio: 1;
+	appearance: none;
+	border: none;
+	display: grid;
+	place-items: center;
+}
+
+header nav button:nth-of-type(3) span {
+	position: absolute;
+	display: block;
+	width: 1em;
+	height: .08em;
+	background-color: var(--color-svg);
+	transition: .15s ease-in-out;
+}
+
+header nav button:nth-of-type(3) span:nth-of-type(1) {
+	translate: 0 -.25em;
+}
+
+header nav button:nth-of-type(3) span:nth-of-type(2) {
+	translate: 0 .25em;
+	z-index: 2000;
+}
+
+header nav button.open:nth-of-type(3) span:nth-of-type(1) {
+	translate: 0 0;
+	rotate: 45deg;
+	z-index: 2000;
+}
+
+header nav button.open:nth-of-type(3) span:nth-of-type(2) {
+	translate: 0 0;
+	rotate: -45deg;
+	z-index: 2000;
+}
+/* Header einde --------------------------------------------------- */
+
+/* Footer --------------------------------------------------- */
+
+footer {
+	background-color: var(--color-background);
+	margin: 2em;
+	color: var(--color-svg);
+}
+
+footer nav {
+	justify-content: flex-start;
 	display: flex;
 	flex-direction: column;
+	flex-grow: 1;
 }
 
-h1 {
-	font-family: SF Pro Display	semibold, sans-serif;
-	font-size: 2em;
-	letter-spacing: .02em;
-	text-align: center;
+footer section {
+	margin-top: 1em;
 }
 
-H2{
-	font-family: SF Pro Display thin, sans-serif ;
-	font-weight: 400;
-	font-size: 1.1875em;
-	text-align: center;
+footer ol {
+	margin-bottom: 1rem;
 }
 
-h4 {
-	font-family: SF Pro Display thin, sans-serif;
-	margin-bottom: .25em;
+footer section ul {
+	list-style-type: none;
+	margin-bottom: 1rem;
+
+	
 }
 
-/* Inhoud menu */
+footer nav button {
+	border: none;
+	font-family: SF Pro Display, sans-serif;
+	font-size: 1em;
+	color: var(--color-svg);
+	text-align: left;
+	border-bottom: 0.1em solid var(--color-svg);
+}
+
+footer nav button.open {
+	/* rotate:180deg; */
+}
+
+footer nav ul {
+	/* display: none; */
+	margin-bottom: .5rem;
+	border-bottom: 0.1em solid var(--color-svg);
+
+	max-height: 0em;
+
+	overflow:hidden;
+
+	transition: 1s;
+	list-style: none;
+}
+
+footer nav ul.open {
+	
+	display: flex;
+	flex-direction: column;
+
+	max-height: calc( var(--items) * 1.4em );
+}
+
+footer nav ul li {
+	margin-left: 1rem;
+}
+
+footer section:nth-of-type(2) {
+	margin: 1em 0 1em 0;
+}
+
+/* Footer einde --------------------------------------------------- */
+
+
+/* Inhoud hamburger menu ---------------------------------------------------*/
 
 body>nav {
 	position: fixed;
@@ -203,10 +315,10 @@ body>nav ul li a:hover svg,
 body>nav ul li a:focus-visible svg {
 	opacity: 1;
 }
+/* Einde inhoud hamburger menu ---------------------------------------------------*/
 
 
-
-/* Searchbar */
+/* Searchbar-------------------------------------------------------- */
 
 body>nav:nth-of-type(3) {
 	display: flex;
@@ -241,48 +353,13 @@ body>nav:nth-of-type(3) ul li input {
 body>nav:nth-of-type(3) ul li input:focus {
 	outline: none;
 }
-
-
-/* --------------------------------------------------- */
-
-/* Navigatie header */
-header>a {
-	width: 3em;
-	aspect-ratio: 1;
-	display: flex;
-	justify-content:center;
-
-}
-
-nav {
-	display: flex;
-	justify-content: space-between;
-	gap: .5em;
-}
-
-header>nav>button {
-	background-color: transparent;
-	border: none;
-	margin: 0;
-	padding: 0;
-	text-align: inherit;
-	font: inherit;
-	border-radius: 0;
-	appearance: none;
-	height:2.5em;
-	width:2.5em;
-	display:grid;
-	place-items: center;
-	place-content: center;
-	cursor: pointer;
-}
-/* --------------------------------------------------- */
+/* Einde searchbar--------------------------------------------------- */
 
 /* Main */
-
-main {
-	display: flex;
-	gap: .5em;
+body {
+	width: 100vw;
+	background-color: var(--color-background);
+	font-family: "SF Pro Display";
 }
 
 a {
@@ -302,139 +379,32 @@ a:visited {
 	text-decoration: none;
 }
 
-main section {
-	display: flex;
-	flex-flow: column nowrap;
-	gap: .75em;
-	align-items: center;
-	padding-top: 3em;
-	color: var(--color-text);
+footer a:visited, footer a {
+	color: var(--color-svg);
 }
 
-main section:nth-of-type(2n+1) {
-	background-color: var(--color-text);
-	color: white;
+h1 {
+	font-family: SF Pro Display semibold, sans-serif;
+	font-size: 2em;
+	letter-spacing: .02em;
+	text-align: center;
 }
 
-main section:nth-of-type(2n) {
-	background-color: var(--color-header1);
-	color: var(--color-text); 
-}
-
-main section img {
-	width: 100%;
-}
-
-main section ul {
-	display: flex;
-	width: 12em;
-	flex-direction: row;
-	list-style-type: none;
-	justify-content: space-between;
-}
-
-main section ul li>a {
+H2 {
 	font-family: SF Pro Display thin, sans-serif;
+	font-weight: 400;
+	font-size: 1.1875em;
+	text-align: center;
 }
 
-/* Header */
+h3 {
+	font-family: SF Pro Display thin, sans-serif;
+	margin-bottom: .25em;
 
-header nav button:nth-of-type(3){
-	position: relative;
-	display: block;
-	width: 2em;
-	aspect-ratio: 1;	
-	appearance: none;
-	border: none;
-	display: grid;
-	place-items: center;
-}
-
-header nav button:nth-of-type(3) span {
-	position: absolute;
-	display: block;
-	width: 1em;
-	height: .08em;
-	background-color: var(--color-svg);
-	transition: .15s ease-in-out;
-}
-
-header nav button:nth-of-type(3) span:nth-of-type(1) {
-	translate: 0 -.25em;
-}
-
-header nav button:nth-of-type(3) span:nth-of-type(2) {
-	translate: 0 .25em;
-	z-index: 2000;
-}
-
-header nav button.open:nth-of-type(3) span:nth-of-type(1) {
-	translate: 0 0;
-	rotate: 45deg;
-	z-index: 2000;
-}
-
-header nav button.open:nth-of-type(3) span:nth-of-type(2) {
-	translate: 0 0;
-	rotate: -45deg;
-	z-index: 2000;
-}
-
-/* Footer */
-
-footer {
-	background-color: var(--color-background);
-	margin: 2em;
-	color: var(--color-svg);
-}
-footer nav {
-	justify-content: flex-start;
-	display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-}
-
-footer section {
-	margin-top: 1em;
-}
-
-footer ol {
-	margin-bottom: 1rem;
-}
-
-footer section ul {
-	list-style-type: none;
-	margin-bottom: 1rem;
-}
-
-footer nav button {
-	border: none;
-	font-family: SF Pro Display, sans-serif;
-	font-size: 1em;
-	color: var(--color-svg);
-	text-align: left;
-	border-bottom: 0.1em solid var(--color-svg);
-}
-
-footer nav ul {
-	display: none;
-	margin-bottom: .5rem;
-	border-bottom: 0.1em solid var(--color-svg);
-}
-
-footer nav ul.open {
-	list-style-type: none;
-	display: flex;
-	flex-direction: column;
-}
-
-footer nav ul li {
-	margin-left: 1rem;
-}
-
-footer section:nth-of-type(2){
-	margin: 1em 0 1em 0 ;
 }
 
 
-/* Einde */
+
+
+
+

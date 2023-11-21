@@ -5,14 +5,14 @@ const deWinkelwagen = document.querySelector("header nav button:nth-of-type(2)")
 const deWinkelwagenMenu = document.querySelector("body>nav:nth-of-type(2)");
 const deSearchmenu = document.querySelector("header nav button:nth-of-type(1)");
 const deSearch = document.querySelector("body>nav:nth-of-type(3)");
-const deFooter1button = document.querySelector("footer nav button:nth-of-type(1)");
-const deFooter1 = document.querySelector("footer nav ul:nth-of-type(1)");
+
+
 
 
 deButton.onclick = toggleMenu;
 deWinkelwagen.onclick = toggleWinkelwagen;
 deSearchmenu.onclick = toggleSearch;
-deFooter1button.onclick = toggleFooter1;
+// deFooter1button.onclick = toggleFooter1;
 
 function toggleMenu() {
   deButton.classList.toggle("open");
@@ -44,6 +44,23 @@ document.addEventListener("keydown", event => {
   }
 });
 
-function toggleFooter1() {
-  deFooter1.classList.toggle("open");
-}
+
+
+// const deFooter1button = document.querySelector("footer nav button:nth-of-type(1)");
+// const deFooter1 = document.querySelector("footer nav ul:nth-of-type(1)");
+
+// function toggleFooter1() {
+//   deFooter1.classList.toggle("open");
+// }
+
+
+const deFooterButtons = document.querySelectorAll("footer nav button");
+
+deFooterButtons.forEach(deFooterButton => { 
+  deFooterButton.onclick = function (e) {
+    var deButton = e.target;
+    var lijstje = deButton.nextElementSibling;
+    lijstje.classList.toggle("open");
+    deButton.classList.toggle("open");
+  }
+});
