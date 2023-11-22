@@ -47,9 +47,11 @@ Pagina onderwijs apple
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-
+<img src="readme-images/Tekengebied 1.png" width="375px" alt="WGAC">
+<img src="readme-images/Tekengebied 2.png" width="375px" alt="WGAC">
+<img src="readme-images/Tekengebied 3.png" width="375px" alt="WGAC">
+<img src="readme-images/Tekengebied 4.png" width="375px" alt="WGAC">
+<img src="readme-images/Tekengebied 5.png" width="375px" alt="WGAC">
 ### Bevindingen
 
 Lijst met je bevindingen die in de test naar voren kwamen:
