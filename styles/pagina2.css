@@ -1,0 +1,160 @@
+
+main {
+    display: flex;
+    gap: .5em;
+    flex-direction: column;
+}
+
+main section:first-of-type {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .75em;
+    align-items: center;
+    padding-top: 3em;
+    color: var(--color-text);
+    align-items: flex-start;
+}
+
+main section:first-of-type ul {
+    text-align: left;
+    font-family: "SF Pro Display semibold";
+    font-size: 1.187em;
+}
+
+main section:first-of-type ul a:visited {
+    color: var(--color-text);
+}
+
+h1 {
+    width: 80%;
+}
+
+p {
+    text-align: center;
+    width: 80%;
+}
+
+
+div h3 {
+    font-family: "SF Pro Display semibold";
+}
+
+div p {
+    width: auto;
+}
+
+
+
+div h2 {
+    text-align: center;
+    width: auto;
+    font-family: "SF Pro Display semibold";
+    font-size: 1.187em;
+}
+
+main section:nth-of-type(2n) {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+main section:nth-of-type(2n+1) {
+    background-color: var(--color-header1);
+}
+
+main section:first-of-type ul {
+    list-style: none;
+    margin-left: 2em;
+}
+
+main section:first-of-type ul a {
+    text-decoration: none;
+}
+
+main section:first-of-type ul li{
+    margin-bottom: 1rem;
+}
+
+section:first-of-type {
+    margin-top: 0;
+}
+
+section {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-of-type(2) div ul li {
+    text-align: center;
+}
+
+section:nth-of-type(3) {
+    padding: 1.5em;
+}
+
+
+section:nth-of-type(3) ul {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    list-style: none;
+    gap: 4em;
+    text-align: center;
+}
+
+section:nth-of-type(3) ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+div {   
+    box-shadow: .5em .5em .5em .5em var(--color-dropshadown);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 5%;
+    width: 90%;
+    height: auto;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+
+
+div:first-of-type {
+    background-color: var(--color-blokje1);
+}
+
+div:nth-of-type(2) {
+    background-color: var(--color-blokje2);
+}
+
+div:nth-of-type(3) {
+    background-color: var(--color-blokje3);
+}
+
+section:nth-of-type(4) div{
+    background-color: var(--color-button-text);
+}
+
+div img {
+    border-radius: 5% 5% 0 0;
+    width: 100%;
+    height: auto;
+}
+
+div ul {
+    text-align: center;
+    margin: 3em;
+    list-style: none;
+}
+
+div ul li{
+    margin-top: 1em;
+}
+

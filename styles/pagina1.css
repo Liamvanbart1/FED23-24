@@ -14,13 +14,13 @@ main section {
 }
 
 main section:nth-of-type(2n+1) {
-    background-color: var(--color-text);
-    color: white;
+    background-color: var(--color-background1);
+    color: var(--color-text);
 }
 
 main section:nth-of-type(2n) {
     background-color: var(--color-header1);
-    color: var(--color-text);
+    color: var(--color-text1);
 }
 
 main section img {
@@ -39,3 +39,37 @@ main section ul li>a {
     font-family: SF Pro Display thin, sans-serif;
 }
 
+/* Cauruselll */
+
+
+section:nth-of-type(4) ul:first-of-type {
+    list-style-type: none;
+    display: flex;
+    overflow-x: auto;
+    gap: 1em;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+}
+
+section:nth-of-type(4) ul:first-of-type li {
+    flex-shrink: 0;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: center;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
