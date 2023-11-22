@@ -75,22 +75,7 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
-
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+meeting is niet gelukt vandaar herkansing
 
 </details>
 
@@ -250,8 +235,15 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 Nb. ChatGpT en andere AI horen er ook bij.
 Nb. Vermeld de bronnen ook in je code.
 
-1. bron 1
-2. bron 2
-3. ...
+1. Sanne voor header en footer
 
 </details>
+
+## Conclusie
+
+In dit frontend project heb ik aanzienlijke vooruitgang geboekt in zowel JavaScript als CSS, waardoor mijn vaardigheden op het gebied van webontwikkeling aanzienlijk zijn verbeterd. Doorheen het project heb ik diepgaande kennis opgedaan over het gebruik van JavaScript voor interactiviteit en dynamische content, terwijl ik tegelijkertijd mijn vaardigheden in het stylen van webpagina's met CSS heb verfijnd. Deze ervaring heeft niet alleen mijn begrip van frontend-technologieën verdiept, maar heeft me ook voorzien van praktische inzichten die ik in toekomstige projecten kan toepassen. Kortom, dit project heeft mijn basis in frontend-ontwikkeling versterkt en mijn zelfvertrouwen vergroot om complexe en boeiende gebruikersinterfaces te ontwerpen.
+
+## Evaluatie
+
+Ik begon erg langzaam en hierdoor had ik moeite met van start komen maar na het 2e gesprek ging het erg goed en heb ik ook veel geleerd! Ik kan in de toekomst beter eerder beginnen
+en vaker om hulp vragen dit maakte me namelijk een hoop duidelijk.
