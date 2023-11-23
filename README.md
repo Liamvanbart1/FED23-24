@@ -5,6 +5,8 @@ De website die ik heb gekozen is die van UBER.
 
 ## Jij
 
+6
+
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 

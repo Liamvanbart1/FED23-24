@@ -59,7 +59,7 @@ section:nth-of-type(4) ul:first-of-type li {
     scroll-snap-align: center;
 }
 
-.fade {
+/* .fade {
     animation-name: fade;
     animation-duration: 2s;
 }
@@ -72,4 +72,4 @@ section:nth-of-type(4) ul:first-of-type li {
     to {
         opacity: 1
     }
-}
+} */
