@@ -19,8 +19,12 @@ main section:nth-of-type(2n+1) {
 }
 
 main section:nth-of-type(2n) {
-    background-color: var(--color-header1);
-    color: var(--color-text1);
+    background-color: var(--color-header3);
+    color: var(--color-text2);
+}
+
+main section:nth-of-type(4) {
+    background-color: var(--color-background4esection);
 }
 
 main section img {

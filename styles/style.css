@@ -22,13 +22,17 @@ button, summary {
 	/* startje */
 	--color-text:#ffffff;
 	--color-text1: #000;
+	--color-text2: #000;
+	--color-text3: #000;
 	--color-background1: #000;
 	--color-background:#eee;
-	--color-header:#161617eb;
+	--color-background4esection: #eee;
+	--color-header:#ffff;
 	--color-header1:#F3F3F6;
-	--color-button-text:#ffff;
-	--color-menudropdown: #161617;
-	--color-svg: #D0D0D0;
+	--color-header3: #F3F3F6;
+	--color-button-text:#0000;
+	--color-menudropdown: #ffff;
+	--color-svg: #000;
 	--color-link: #2997ff;
 	--color-blokje1: #E3C1DC;
     --color-blokje2: #D5E0B8;
@@ -38,13 +42,22 @@ button, summary {
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-text: #000;
-		--color-text1: #ffff	
+		--color-svg: #D0D0D0;
+		--color-header: #161617eb;
+		--color-header1: #383838;
+		--color-svg: #D0D0D0;
+		--color-menudropdown: #161617;
+		--color-button-text: #ffff;
+		--color-background4esection: #000;
 		--color-background: #000;
-		--color-background1: #eee
+		--color-text1: #fff;
+		--color-dropshadown: #121010;
+		--color-blokje1: #bd9ab6;
+		--color-blokje2: #9fa78a;
+		--color-blokje3: #a1adb5;
 	}
 }
-
+ 
 
 
 
@@ -93,7 +106,7 @@ footer a:hover {
 
 body nav a:visited {
 	text-decoration: none;
-	color: var(--color-text1);
+	color: inherit;
 }
 header {
 	z-index: 1000;
@@ -112,7 +125,7 @@ header>nav {
 }
 
 header svg {
-	fill:var(--color-background);
+	fill:var(--color-svg);
 }
 
 header>a {
@@ -187,7 +200,7 @@ header nav button.open:nth-of-type(3) span:nth-of-type(2) {
 footer {
 	background-color: var(--color-background);
 	margin: 2em;
-	color: var(--color-svg);
+	color: var(--color-text1);
 	border-top: 0.1em solid var(--color-svg);
 }
 
@@ -209,17 +222,15 @@ footer ol {
 footer section ul {
 	list-style-type: none;
 	margin-bottom: 1rem;
-
-	
 }
 
 footer nav button {
 	border: none;
 	font-family: SF Pro Display, sans-serif;
 	font-size: 1em;
-	color: var(--color-svg);
+	/* color: var(--color-svg); */
 	text-align: left;
-	border-bottom: 0.1em solid var(--color-svg);
+	border-bottom: 0.1em solid var(--color-text1);
 }
 
 footer nav button.open {
@@ -229,7 +240,7 @@ footer nav button.open {
 footer nav ul {
 	/* display: none; */
 	margin-bottom: .5rem;
-	border-bottom: 0.1em solid var(--color-svg);
+	border-bottom: 0.1em solid var(--color-text1);
 
 	max-height: 0em;
 
@@ -253,6 +264,11 @@ footer nav ul li {
 
 footer section:nth-of-type(2) {
 	margin: 1em 0 1em 0;
+}
+
+footer button {
+	background-color: var(--color-background);
+	color : var(--color-text1);
 }
 
 /* Footer einde --------------------------------------------------- */
@@ -360,7 +376,7 @@ body>nav:nth-of-type(3) ul {
 }
 
 body>nav:nth-of-type(3) ul svg {
-	fill: currentColor;
+	fill: var(--color-svg);
 }
 
 body>nav:nth-of-type(3) ul li:nth-of-type(1) {
@@ -371,7 +387,7 @@ body>nav:nth-of-type(3) ul li input {
 	height: 2.5em;
 	width: 100%;
 	border: none;
-	color: var(--color-button-text);
+	color: var(--color-text1);
 	background-color: var(--color-menudropdown);
 	font-family: SF Pro Display , sans-serif;
 	font-size: large;
@@ -447,11 +463,3 @@ h3 {
 }
 
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-text: #000;
-		--color-text1: #ffff 
-		--color-background: #000000;
-		--color-background1: #eee
-	}
-}
