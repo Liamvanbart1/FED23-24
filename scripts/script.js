@@ -140,4 +140,4 @@ if (window.location.href.indexOf('index.html' || 'https://liamvanbart1.github.io
 }
 
 //bron https://www.educative.io/answers/how-to-create-an-automatic-slideshow-with-html-css-and-js 
-// vervolgens aangepast met CHATGPT en ik kan het niet volledig uitleggen maar het werkt dus ik ben blij
+// vervolgens aangepast met CHATGPT en ik kan het niet volledig uitleggen maar het werkt dus ik ben blij heel blij
