@@ -136,6 +136,13 @@ header>a {
 
 }
 
+header>h1 {
+	width: 1.5em;
+	aspect-ratio: 1;
+	display: flex;
+	justify-content: center;
+}
+
 header>nav>button {
 	background-color: transparent;
 	border: none;
@@ -433,19 +440,25 @@ h1 {
 	text-align: center;
 }
 
-H2 {
+h2 {
+	font-family: "SF Pro Display semibold", sans-serif;
+	font-size: 2em;
+	letter-spacing: .02em;
+	text-align: center;
+
+}
+
+h3 {
 	font-family: "SF Pro Display thin", sans-serif;
 	font-weight: 400;
 	font-size: 1.1875em;
 	text-align: center;
 }
 
-h3 {
+h4 {
 	font-family: "SF Pro Display thin", sans-serif;
 	margin-bottom: .25em;
-
 }
-
 
 
 

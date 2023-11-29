@@ -25,7 +25,7 @@ main section:first-of-type ul a:visited {
     color: var(--color-text1);
 }
 
-h1 {
+h2 {
     width: 80%;
 }
 
