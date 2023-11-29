@@ -219,15 +219,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Dit ging goed/Heb ik geleerd:
 
-Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+Dropdown is goed gelukt ik heb geleerd hoe je door middel van JS classes kan toevoegen en verwijderen.
+<img src="readme-images/Dropdown menu.png" width="375px" alt="uitomst opdracht 1">
+Ook is de styling goed gelukt.
+<img src="readme-images/Pagina2.png" width="375px" alt="uitomst opdracht 3">
 
 ### Dit was lastig/Is niet gelukt:
 
-Korte omschrijving met plaatjes
+Helaas is het me niet gelukt om de slideshow exact na te maken met animaties.
+<img src="readme-images/bummer.png" width="375px" alt="bummer">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 ## Bronnenlijst
