@@ -40,7 +40,7 @@ main section ul {
 }
 
 main section ul li>a {
-    font-family: SF Pro Display thin, sans-serif;
+    font-family: "SF Pro Display thin", sans-serif;
 }
 
 /* Cauruselll */
@@ -63,7 +63,7 @@ section:nth-of-type(4) ul:first-of-type li {
     scroll-snap-align: center;
 }
 
-/* .fade {
+ .fade {
     animation-name: fade;
     animation-duration: 2s;
 }
@@ -76,4 +76,16 @@ section:nth-of-type(4) ul:first-of-type li {
     to {
         opacity: 1
     }
-} */
+} 
+
+
+main button {
+    border-radius: 30%;
+    border: none;
+    background-color: var(--color-background);
+    color: var(--color-text1);
+    padding: 1em;
+    font-family: "SF Pro Display semibold", sans-serif;
+    font-size: 1em;
+    letter-spacing: .02em;    
+}

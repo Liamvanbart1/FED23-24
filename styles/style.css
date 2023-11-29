@@ -226,7 +226,7 @@ footer section ul {
 
 footer nav button {
 	border: none;
-	font-family: SF Pro Display, sans-serif;
+	font-family: "SF Pro Display", sans-serif;
 	font-size: 1em;
 	/* color: var(--color-svg); */
 	text-align: left;
@@ -300,7 +300,7 @@ body>nav ul {
 	justify-content: flex-start;
 	gap: .5em;
 	color: var(--color-button-text);
-	font-family: SF Pro Display semibold,sans-serif;
+	font-family: "SF Pro Display semibold",sans-serif;
 	flex-grow:1;
 }
 
@@ -339,7 +339,7 @@ body>nav.open ul li {
 
 body>nav ul li a{
 	color: var(--color-button-text);
-	font-family: SF Pro Display semibold, sans-serif;
+	font-family: "SF Pro Display semibold", sans-serif;
 	font-size: 1.8em;
 	display: flex;
 	justify-content: space-between;
@@ -389,7 +389,7 @@ body>nav:nth-of-type(3) ul li input {
 	border: none;
 	color: var(--color-text1);
 	background-color: var(--color-menudropdown);
-	font-family: SF Pro Display , sans-serif;
+	font-family: "SF Pro Display", sans-serif;
 	font-size: large;
 }
 
@@ -402,7 +402,7 @@ body>nav:nth-of-type(3) ul li input:focus {
 body {
 	width: 100vw;
 	background-color: var(--color-background);
-	font-family: "SF Pro Display";
+	font-family: "SF Pro Display", sans-serif;
 }
 
 a {
@@ -427,21 +427,21 @@ footer a:visited, footer a {
 }
 
 h1 {
-	font-family: SF Pro Display semibold, sans-serif;
+	font-family: "SF Pro Display semibold", sans-serif;
 	font-size: 2em;
 	letter-spacing: .02em;
 	text-align: center;
 }
 
 H2 {
-	font-family: SF Pro Display thin, sans-serif;
+	font-family: "SF Pro Display thin", sans-serif;
 	font-weight: 400;
 	font-size: 1.1875em;
 	text-align: center;
 }
 
 h3 {
-	font-family: SF Pro Display thin, sans-serif;
+	font-family: "SF Pro Display thin", sans-serif;
 	margin-bottom: .25em;
 
 }

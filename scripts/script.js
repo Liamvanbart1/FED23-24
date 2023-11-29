@@ -46,12 +46,6 @@ document.addEventListener("keydown", event => {
 
 
 
-// const deFooter1button = document.querySelector("footer nav button:nth-of-type(1)");
-// const deFooter1 = document.querySelector("footer nav ul:nth-of-type(1)");
-
-// function toggleFooter1() {
-//   deFooter1.classList.toggle("open");
-// }
 
 
 const deFooterButtons = document.querySelectorAll("footer nav button");
@@ -67,23 +61,81 @@ deFooterButtons.forEach(deFooterButton => {
 
 
 
-// courselll 
+// caurosell code
+if (window.location.href.indexOf('index.html') > -1) {
 
-let index = 0;
-displayImages();
-function displayImages() {
-  let i;
-  const images = document.getElementsByClassName("image");
-  for (i = 0; i < images.length; i++) {
-    images[i].style.display = "none";
+  let index = 0;
+  let isRunning = false;
+  let timer;
+
+  displayImages();
+
+  document.getElementById("toggleButton").addEventListener("click", toggleImageSlider);
+  document.getElementById("prevButton").addEventListener("click", showPrevImage);
+  document.getElementById("nextButton").addEventListener("click", showNextImage);
+
+  function displayImages() {
+    const images = document.getElementsByClassName("image");
+
+    for (let i = 0; i < images.length; i++) {
+      images[i].style.display = "none";
+    }
+
+    index++;
+    if (index > images.length) {
+      index = 1;
+    }
+
+    images[index - 1].style.display = "flex";
+
+    if (isRunning) {
+      timer = setTimeout(displayImages, 2000);
+    }
   }
-  index++;
-  if (index > images.length) {
-    index = 1;
+
+  function toggleImageSlider() {
+    isRunning = !isRunning;
+    if (isRunning) {
+      document.getElementById("toggleButton").textContent = "Stop";
+      displayImages();
+    } else {
+      document.getElementById("toggleButton").textContent = "Start";
+      clearTimeout(timer);
+    }
   }
-  images[index-1].style.display = "flex";
-  setTimeout(displayImages, 2000); 
+
+  function showPrevImage() {
+    index--;
+    if (index < 1) {
+      index = document.getElementsByClassName("image").length;
+    }
+    showImage(index);
+  }
+
+  function showNextImage() {
+    index++;
+    if (index > document.getElementsByClassName("image").length) {
+      index = 1;
+    }
+    showImage(index);
+  }
+
+  function showImage(index) {
+    clearTimeout(timer);
+    const images = document.getElementsByClassName("image");
+
+    for (let i = 0; i < images.length; i++) {
+      images[i].style.display = "none";
+    }
+
+    images[index - 1].style.display = "flex";
+
+    if (isRunning) {
+      timer = setTimeout(displayImages, 2000);
+    }
+  }
+
 }
 
-
-//bron https://www.educative.io/answers/how-to-create-an-automatic-slideshow-with-html-css-and-js
+//bron https://www.educative.io/answers/how-to-create-an-automatic-slideshow-with-html-css-and-js 
+// vervolgens aangepast met CHATGPT
