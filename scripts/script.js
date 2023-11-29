@@ -62,6 +62,8 @@ deFooterButtons.forEach(deFooterButton => {
 
 
 // caurosell code
+
+// if statement zodat deze code alleen in index.html wordt uitgevoerd
 if (window.location.href.indexOf('index.html') > -1) {
 
   let index = 0;
@@ -138,4 +140,4 @@ if (window.location.href.indexOf('index.html') > -1) {
 }
 
 //bron https://www.educative.io/answers/how-to-create-an-automatic-slideshow-with-html-css-and-js 
-// vervolgens aangepast met CHATGPT
+// vervolgens aangepast met CHATGPT en ik kan het niet volledig uitleggen maar het werkt dus ik ben blij
