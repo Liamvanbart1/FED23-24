@@ -47,7 +47,12 @@ Pagina onderwijs apple
  
 </details>
 
-## Toegankelijkheidstest 1/2 (week 1)
+## Breakdownschetsen
+
+<img src="readme-images/Breakdownschets pagina 1.png" width="375px" alt="Breakdownschets1">
+<img src="readme-images/Breakdownschets pagina 2.png" width="375px" alt="Breakdownschets2">
+
+## Toegankelijkheidstest WCAG checklist
 
 <img src="readme-images/Tekengebied 1.png" width="375px" alt="WGAC">
 <img src="readme-images/Tekengebied 2.png" width="375px" alt="WGAC">
@@ -59,14 +64,6 @@ Pagina onderwijs apple
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 </details>
-
-### WCAG checklist
-
-<img src="readme-images/Test _Tekengebied 1-01.png" width="375px" alt="Spraakbesturing test 2">
-<img src="readme-images/Test -02.png" width="375px" alt="Spraakbesturing test 2">
-<img src="readme-images/Test _Tekengebied 1-03.png" width="375px" alt="Spraakbesturing test 2">
-<img src="readme-images/Test -04.png" width="375px" alt="Spraakbesturing test 2">
-<img src="readme-images/Test -05.png" width="375px" alt="Spraakbesturing test 2">
 
 ## Voortgang 1 (week 2)
 
