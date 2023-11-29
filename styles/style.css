@@ -476,3 +476,20 @@ h4 {
 }
 
 
+.skip-link {
+	position: absolute;
+	top: -40px;
+	left: 0;
+	background-color: #000;
+	color: #fff;
+	font-family: inherit;
+	padding: 8px;
+	z-index: 1999;
+	text-decoration: none;
+	transition: top 0.3s ease;
+}
+
+/* Style the skip link to hide it by default */
+.skip-link:focus {
+	top: 0;
+}

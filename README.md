@@ -212,7 +212,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Dropdown menu.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Homepagina.png" width="375px" alt="uitomst opdracht 2">
+  <img src="readme-images/Pagina2.png" width="375px" alt="uitomst opdracht 3">
+  <img src="readme-images/Footer.png" width="375px" alt="uitomst opdracht 4">
 
 ### Dit ging goed/Heb ik geleerd:
 
@@ -237,6 +240,7 @@ Nb. ChatGpT en andere AI horen er ook bij.
 Nb. Vermeld de bronnen ook in je code.
 
 1. Sanne voor header en footer
+2. bron https://www.educative.io/answers/how-to-create-an-automatic-slideshow-with-html-css-and-js vervolgens aangepast met CHATGPT en ik kan het niet volledig uitleggen maar het werkt dus ik ben blij
 
 </details>
 
