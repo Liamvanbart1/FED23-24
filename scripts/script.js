@@ -64,7 +64,7 @@ deFooterButtons.forEach(deFooterButton => {
 // caurosell code
 
 // if statement zodat deze code alleen in index.html wordt uitgevoerd
-if (window.location.href.indexOf('index.html', 'https://liamvanbart1.github.io/FED23-24/') > -1) {
+if (window.location.href.indexOf(currentURL.indexOf('index.html') > -1 || currentURL.indexOf('https://liamvanbart1.github.io/FED23-24/') > -1)) {
 
   let index = 0;
   let isRunning = false;
